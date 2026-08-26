@@ -1,0 +1,27 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "task": "node build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shelemenev/leetcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shelemenev/leetcode/issues"
+  },
+  "homepage": "https://github.com/shelemenev/leetcode#readme",
+  "devDependencies": {
+    "@types/node": "^26.3.0",
+    "typescript": "^7.0.2"
+  }
+}
