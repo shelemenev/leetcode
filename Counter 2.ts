@@ -10,7 +10,7 @@ reset() sets the current value to init and then returns it.
 
 */
 
-function createCounter(init: number) {
+function createCounters(init: number) {
   let current = init
 
   return {
@@ -29,12 +29,12 @@ function createCounter(init: number) {
   }
 }
 
-const counter1 = createCounter(5)
+const counter1 = createCounters(5)
 console.log(counter1.increment())
 console.log(counter1.reset())
 console.log(counter1.decrement())
 
-const counter2 = createCounter(0)
+const counter2 = createCounters(0)
 console.log(counter2.increment())
 console.log(counter2.increment())
 console.log(counter2.decrement())

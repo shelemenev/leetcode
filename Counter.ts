@@ -30,15 +30,17 @@ calls[i] === "call"
 */
 
 function createCounter(n: number): () => number {
-  let current = n
+  let current = n;
   return () => {
-    const result = current
-    current += 1
-    return result
-  }
+    const result = current;
+    current += 1;
+    return result;
+  };
 }
 
 const counter = createCounter(10);
+
 console.log(counter())
 console.log(counter())
 console.log(counter())
+
