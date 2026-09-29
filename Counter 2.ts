@@ -14,18 +14,9 @@ function createCounters(init: number) {
   let current = init
 
   return {
-    increment: (): number => {
-      current += 1
-      return current
-    },
-    decrement: (): number => {
-      current -= 1
-      return current
-    },
-    reset: (): number => {
-      current = init
-      return current
-    }
+    increment: (): number => ++current,
+    decrement: (): number => --current,
+    reset: (): number => current = init
   }
 }
 

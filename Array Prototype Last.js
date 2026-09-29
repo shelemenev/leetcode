@@ -33,13 +33,3 @@ console.log(nums2.last())
 const jsonStr = '[1, 2, 3, 4]'
 const arrFromJson = JSON.parse(jsonStr)
 console.log(arrFromJson.last())
-
-
-
-
-
-
-
-
-
-
